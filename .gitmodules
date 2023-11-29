@@ -1,0 +1,8 @@
+[submodule "submodules/my_submodule_lib"]
+	path = submodules/my_submodule_lib
+	url = git@personal_github:nikitablack/my_submodule_lib.git
+	branch = main
+[submodule "submodules/my_submodule_lib_2"]
+	path = submodules/my_submodule_lib_2
+	url = git@personal_github:nikitablack/my_submodule_lib_2.git
+	branch = master

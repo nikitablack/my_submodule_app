@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update all submodules
-git submodule foreach '
+git submodule foreach --recursive '
     branch=$(git config -f $toplevel/.gitmodules submodule.$name.branch);
     git fetch origin &&
     git checkout $branch &&
